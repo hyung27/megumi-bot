@@ -1,0 +1,33 @@
+{
+  "name": "megumi",
+  "version": "1.0.0",
+  "description": "Simple Whatsapp Bot (base)",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hyung27/megumi-bot.git"
+  },
+  "keywords": [
+    "bot-wa",
+    "whatsapp-bot",
+    "whatsapp"
+  ],
+  "author": "hyung",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hyung27/megumi-bot/issues"
+  },
+  "homepage": "https://github.com/hyung27/megumi-bot#readme",
+  "dependencies": {
+    "@hapi/boom": "^9.1.4",
+    "@whiskeysockets/baileys": "^6.6.0",
+    "axios": "^1.6.2",
+    "chalk": "^4.1.2",
+    "dotenv": "^16.3.1",
+    "pino": "^7.6.5",
+    "qrcode-terminal": "^0.12.0"
+  }
+}
